@@ -7,8 +7,8 @@
 #end
 
 def prime?(int)
-  int.split(//)
-  int.each do |i|
+  #int.split(//)
+  int.all? do |i|
     if i > 2 && i.even? && i % 3 != 0
       false
     else
